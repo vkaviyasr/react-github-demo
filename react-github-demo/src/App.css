@@ -1,26 +1,45 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background: #f0f4f8;
 }
 
 .container {
-  text-align: center;
-  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .card {
-  width: 300px;
-  margin: auto;
-  padding: 20px;
   background: white;
-  border-radius: 10px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #1e3a8a;
+}
+
+h2 {
+  color: #555;
+}
+
+p {
+  color: #666;
 }
 
 button {
   padding: 10px 20px;
-  border: none;
   background: blue;
   color: white;
+  border: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkblue;
 }
