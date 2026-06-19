@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f0f4f8;
+  background: #dff6ff;
 }
 
 .container {
@@ -14,28 +14,17 @@ body {
 .card {
   background: white;
   padding: 30px;
-  border-radius: 12px;
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
-
-h1 {
-  color: #1e3a8a;
-}
-
-h2 {
-  color: #555;
-}
-
-p {
-  color: #666;
 }
 
 button {
-  padding: 10px 20px;
   background: blue;
   color: white;
   border: none;
+  padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
 }
